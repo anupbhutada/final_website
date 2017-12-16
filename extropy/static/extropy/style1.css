@@ -1,0 +1,552 @@
+
+html{
+margin:0;
+padding:0;
+overflow-x: hidden;
+}
+body{
+background: white;
+margin: 0;
+padding: 0;
+height: 900vh;
+}
+
+.landing-page{
+position: absolute;
+top: 0px;
+border-bottom: 7px solid black;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+position:relative;
+top: 0px;
+margin: 0px;
+width:80%;
+padding: 5%;
+padding-left: 24%;
+z-index: 10;
+}
+
+header .fixed-action-btn.toolbar ul.exp-menu{
+background: #008B8B;
+z-index: 10;
+}
+
+header .fixed-action-btn.toolbar ul.exp-menu li a{
+display: flex;
+justify-content: center;
+}
+
+header div{
+display: flex;
+font-size: 1.2em;
+padding: 15px;
+margin: 0px;
+}
+header div div{
+padding: 5px 15px;
+margin: 0 15px;
+}
+header div div:hover{
+color: teal;
+background: black;
+}
+.button{
+background-color: none;
+border: 2px solid black;
+}
+
+#centre{
+font-size: 1.5em;
+    position: fixed;
+    left: 45%;
+}
+#left{
+    left:20%;
+width: 450px;
+border-color:red;
+    position: fixed;
+}
+#right{
+    left:65%;
+width: 450px;
+    position: fixed;
+}
+#menu{
+    left:90%;
+    position: fixed;
+}
+#close{
+    left:10%;
+    position: fixed;
+}
+
+.section_2{
+display: flex;
+height: 100vh;
+justify-content: center;
+margin:0;
+padding:0;
+}
+.section_2 div{
+display: flex;
+position: absolute;
+top: 0px;
+height: 100vh;
+overflow: hidden;
+}
+
+.section_2 div #bground{
+align-self: center;
+display: inline-block;
+position: relative;
+top: 0px;
+height: 100vh;
+width: auto;
+}
+
+.section_2 p{
+font-size: 10em;
+padding:0;
+margin:0;
+align-self: center;
+}
+
+.about-trigger{
+    position: absolute;
+    top: 100vh;
+}
+
+.about-extropy{
+height: 100vh;
+border-bottom: 7px solid black;
+}
+
+.about-extropy .about-back{
+display: flex;
+position: absolute;
+top: 0;
+height: 100vh;
+overflow: hidden;
+}
+
+.about-back #about-svg{
+align-self: center;
+display: inline-block;
+position: relative;
+top: 0px;
+height: 100vh;
+width: auto;
+}
+
+
+.about-extropy .text{
+position: relative;
+top: -13vh;
+}
+
+.about-extropy h3{
+display: inline-block;
+padding: 0 0 8px 0;
+position: relative;
+top: -50px;
+color: tomato;
+left:25%;
+font-size: 9.7vmin;
+z-index: 4;
+border-bottom: 5px solid black;
+border-radius: 5px;
+}
+.about-extropy p{
+position:relative;
+margin-top: 0%;
+padding-bottom:5%;
+width:50%;
+left:25%;
+z-index: 4;
+font-size: 3.9vmin;
+}
+.section_1{
+display: flex;
+width: 800vw;
+}
+.section_1 main{
+width: 100vw;
+height: 100vh;
+}
+#about-layer-svg {
+    z-index: -10;
+    height: 200vh;
+    width: auto;
+    position: absolute;
+    top: 0;
+}
+#events-bckdrp{
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    overflow-y: hidden;
+    z-index: -1;
+ 
+}
+#circle{
+    z-index: 2;
+}
+.section_1 .ev-card{
+position: relative;
+width: 100vw;
+
+}
+.section_1 .ev-card{
+display: flex;
+height: 100vh;
+justify-content: center;
+background: transparent;
+margin:0;
+padding:0;
+z-index: 10;
+}
+
+.ev-card .backdrp{
+z-index: 0;
+opacity: 0.8;
+position: absolute;
+background-size: cover;
+width: 75%;
+height: 80%;
+background: gainsboro;
+box-shadow: 5px 5px 8px grey;
+}
+
+.section_1 .ev-card div{
+font-size: 10em;
+padding:0;
+margin:0;
+align-self: center;
+}
+
+.section_1_wrap{
+overflow: hidden;
+-webkit-perspective: 1000;
+            perspective: 1000;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+.univ-container{
+    overflow-y: hidden;
+}
+
+.float-cont{
+position: fixed;
+top: 0;
+left:0;
+z-index: 0;
+width: 100vw;
+height: 100vh;
+}
+.float-cont .shape-1{
+height: 100px;
+width: 100px;
+background: teal;
+position: absolute;
+top: 50%;
+left: 8%;
+transition: all 0.1s;
+z-index: 9;
+visibility: hidden;
+}
+svg#Layer_1{
+padding: 0px;
+margin: 0px;
+z-index: -1;
+position: absolute;
+top: 0;
+}
+#anim-path{
+display:none;
+}
+.ev_card_heading{
+    background-color: transparent;
+    width:25%;
+    height: 15%;
+    position:relative;
+    top:-33%;
+    left:20%;
+    border-bottom-color:whitesmoke;
+    border-bottom-style:groove;
+}
+.ev_card_heading p{
+    position: inherit;
+    font-size:20%;
+    align-content: flex-end;
+    position: relative;
+    left:30%;
+    font-style: oblique;
+    top:2%;
+}
+.ev_card_about{
+    color: #bbb;
+    position: relative;
+    background-color:transparent;
+    height:50%;
+    width:40%;
+    left:-15%;
+    top:1%;
+}
+.ev_card_about p{
+    font-size:18px;
+    color:black;
+}
+.ev_card_img{
+    position: relative;
+    left:5%;
+    width:60vh;
+    height:60vh;
+    background-color: tomato;
+}
+
+
+.section_3{
+display: flex;
+flex-direction: column;
+height: 100vh;
+align-items: center;
+justify-content: space-evenly;
+background: steelblue;
+border-top: 30px solid #84B7DE;
+}
+
+.card-wrap{
+display: flex;
+align-self: center;
+justify-content: space-around;
+justify-content: space-evenly;
+background: seashell;
+height: auto;
+width: 60%;
+padding: 0;
+margin: 10px;
+border-radius: 5px;
+padding: 4% 0 4% 0;
+}
+
+.section_3 .card{
+display: inline-block;
+width: 35%;
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.section_3 h1{
+    font-size: 3.3vw;
+    letter-spacing: 7px;
+    margin: 0.67em 0;
+    font-family: raleway;
+    font-weight: 500;
+    color: cornsilk;
+}
+
+
+.team-cont{
+    padding: 0;
+    margin: 0;
+    height: 70vw;
+    border-top: 30px solid #b1dcfb;
+}
+
+.check_1{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 5vh);
+    left:3vw;
+    border-style: solid;
+    background: url('images/satyaki.JPG');
+    background-size: cover;
+}
+.check_2{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 5vh);
+    left:41vw;
+    border-style: solid;
+    background: url('images/anup.JPG');
+    background-size: cover;
+}
+.check_3{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 5vh);
+    left:80vw;
+    border-style: solid;
+    background: url('images/saransh.JPG');
+    background-size: cover;
+}
+.check_4{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 12vw);
+    left:21.5vw;
+    border-style: solid;
+    background: url('images/shivam.JPG');
+    background-size: cover;
+}
+.check_5{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 12vw);
+    left:60.3vw;
+    border-style: solid;
+    background: url('images/pratik.jpg');
+    background-size: cover;
+}
+.check_6{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 22.5vw);
+    left:3vw;
+    border-style: solid;
+    background: url('images/prasad.jpg');
+    background-size: cover;
+}
+.check_7{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 22vw);
+    left:41vw;
+    border-style: solid;
+    background: url('images/bandar.JPG');
+    background-size: cover;
+}
+.check_8{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 22.5vw);
+    left:80vw;
+    border-style: solid;
+    background: url('images/kreeti.JPG');
+    background-size: cover;
+}
+.check_9{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 34vw);
+    left:21.5vw;
+    border-style: solid;
+    background: url('images/ritika.jpg');
+    background-size: cover;
+}
+.check_10{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 34vw);
+    left:60.3vw;
+    border-style: solid;
+    background: url('images/vishakha.jpeg');
+    background-size: cover;
+}
+.check_11{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 41.5vw);
+    left:3vw;
+    border-style: solid;
+    background: url('images/nischal.jpg');
+    background-size: cover;
+}
+.check_12{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 41.5vw);
+    left:41vw;
+    border-style: solid;
+    background: url('images/hitesh.JPG');
+    background-size: cover;
+}
+.check_13{
+    width:16vw;
+    height:16vw;
+    background-color: gold;
+    position: absolute;
+    top:calc(2120vh + 41.5vw);
+    left:80vw;
+    border-style: solid;
+    background: url('images/hemanand.JPG');
+    background-size: cover;
+}
+.team-card{
+    display: inline-block;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+.information-team{
+    text-align: left
+    background: transparent;
+    color: white;
+    font-size: 2vmin;
+    font-family: Lovelo;
+    font-feature-settings: 
+    padding: 5%;
+    width: 100%;
+    margin-top: 75%;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.team-header{
+    text-align: center;
+}
+
+.team-header h1{
+    display: inline-block;
+    font-weight: medium;
+    font-family: raleway;
+    font-size: 3.3vw;
+    letter-spacing: 7px;
+    font-weight: 500;
+}
+
+@font-face {
+font-family: "Lovelo";
+src: url("Lovelo Black.otf");
+src:
+url("css/fonts/Harabara.otf") format("opentype"),
+}
+
